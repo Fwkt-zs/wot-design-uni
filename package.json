@@ -43,8 +43,6 @@
     "docs:serve": "vitepress serve docs",
     "dev:docs": "vitepress dev docs --port 5174",
     "build:docs": "pnpm run build:h5 && vitepress build docs && esno ./scripts/demoCopy.ts",
-    "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install",
     "lint": "eslint --fix --ext .js,.vue,.ts src",
     "commit": "git-cz",
     "release-major": "standard-version --release-as major",
