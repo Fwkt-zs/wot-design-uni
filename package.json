@@ -53,6 +53,7 @@
     "release-tag": "esno ./scripts/release.ts",
     "build:web-types": "esno ./scripts/build-web-types.ts",
     "compiler": "esno ./scripts/compiler.ts",
+    "compiler_to_hcg": "esno ./scripts/compiler_to_hcg.ts",
     "upload:mp-weixin": "uni build -p mp-weixin && minici --platform weixin",
     "upload:mp-alipay": "uni build -p mp-alipay && minici --platform alipay",
     "upload:mp-dingtalk": "uni build -p mp-dingtalk && minici --platform dd",
